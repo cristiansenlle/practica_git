@@ -1,0 +1,164 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.navbar navbar-expand-lg navbar-light bg-light{
+    display:flex
+    
+}
+
+.navbar-brand{
+        
+        width: 20%;
+}
+
+/*.navbar-brand img{
+    
+    width: 3em;
+    margin-left: -11px;
+    
+}*/
+
+.navbar-brand span{
+    font-size: medium;
+}
+
+
+.items{
+    display:block;
+   
+    margin-top: 6px;
+}
+.navbar-nav{
+    margin-left: auto;
+ 
+}
+
+.carousel-caption {
+    display:block !important;
+}
+
+
+.card{
+    margin-top: 5em;
+    padding-bottom: 5em;
+    text-align: center;
+}
+.card-group .card:hover {
+    background-color:#dadee6;
+   
+    
+}
+.card img{
+    display:block;
+    width: 5em;
+    margin:auto;
+    padding-top: 1em;
+}
+
+.card button{
+    width: 50%;
+margin-left: 125px;
+display: block;
+margin: auto;
+    margin-top: auto;
+margin-top: 2em;
+}
+.profesores{
+    background-color: rgba(169, 169, 169,0.4);
+     width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.profesores img{
+    border-radius: 50%;
+    width: 15em;
+    ;
+}
+.profesores .card{
+    border-radius: 10px;
+  
+
+}
+.progress{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.formulario{
+    background-color: rgba(169, 169, 169,0.4);
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    width: 65%;
+margin-top: 5em;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+   
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    margin: auto;
+    height: 3em;
+}
+
+footer h3{
+    font-size: smaller; 
+    padding-top: 1em;
+}
+.col-12 button{
+    margin-bottom: 5em;
+}
+
+.opcion_servicio{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+@media (min-width: 952px){
+    
+    .items{
+        display:flex;
+       
+        margin-top: 6px;
+    }
+    .carousel-inner h5{
+        font-size: xx-large;
+        font-weight: bold;
+    
+    }
+    .carousel-inner p {
+        line-height:24;
+        font-size: larger;
+        font-weight: 400;
+    }
+    .navbar-nav li a{
+        margin-right: 25px;
+    }
+    .navbar-brand{
+       
+  
+        width: 20%;
+    }
+
+    .navbar-brand img{
+        margin-left: 8px;
+            margin-right: 15px;
+            width: 20%;
+    
+    }
+    .navbar-brand span{
+    font-size: larger;
+    }
+
+    
+    
+}
